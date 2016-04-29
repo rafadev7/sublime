@@ -1,0 +1,4 @@
+{
+	// Perform goimports every time you save a file
+	"fmt_cmd": ["goimports"]
+}

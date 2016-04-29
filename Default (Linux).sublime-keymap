@@ -1,0 +1,22 @@
+[
+	{
+		"keys": ["ctrl+t"],
+		"command": "gs_test",
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
+	},
+	{
+		"keys": ["ctrl+shift+b"],
+		"command": "gs9o_open",
+		"args": {"run": ["replay"], "focus_view": true},
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
+	},
+	{
+		"keys": ["ctrl+i"],
+		"command": "gs_palette",
+		"args": {"palette": "imports", "direct": true},
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
+	},
+	{ "keys": ["ctrl+shift+k"], "command": "exec", "args": {"kill": true} },
+	{ "keys": ["ctrl+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} }
+
+]

@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Except these files
+!Default (Linux).sublime-keymap
+!GoSublime.sublime-settings
+!Preferences.sublime-settings
+!.gitignore
